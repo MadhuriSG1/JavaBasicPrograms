@@ -1,0 +1,11 @@
+[{"fname":"Madhu","lname":"Rane","phonenumber":123,"address":{"city":"poi","zip":123,"state":"maha"}},
+{"fname":"Ranu","lname":"kale","phonenumber":456,"address":{"city":"lkj","zip":456,"state":"lkj"}},
+{"fname":"Sani","lname":"lk","phonenumber":123,"address":{"city":"lkj","zip":123,"state":"pio"}},
+{"fname":"afd","lname":"lkh","phonenumber":458,"address":{"city":"poi","zip":78,"state":"lkj"}},
+{"fname":"ret","lname":"poi","phonenumber":78,"address":{"city":"Rat","zip":56,"state":"oipy"}},
+{"fname":"Pinly","lname":"lkj","phonenumber":456,"address":{"city":"wert","zip":456,"state":"lkgfj"}},
+{"fname":"ret","lname":"poi","phonenumber":78,"address":{"city":"Rat","zip":56,"state":"oipy"}},
+{"fname":"Abcd","lname":"lkjh","phonenumber":4561,"address":{"city":"Pune","zip":852,"state":"lkj"}},
+{"fname":"Abcd","lname":"lkjh","phonenumber":4561,"address":{"city":"Pune","zip":852,"state":"lkj"}},
+{"fname":"Madhu","lname":"qqq","phonenumber":123,"address":{"city":"poi","zip":123,"state":"maha"}},{
+"fname":"Manu","lname":"lkj","phonenumber":789,"address":{"city":"oiu","zip":456,"state":"lkj"}}]

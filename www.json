@@ -1,0 +1,3 @@
+[{"fname":"abc","lname":"xyz","phonenumber":789,"address":{"city":"Mumbai","zip":456,"state":"por"}},
+{"fname":"Swati","lname":"Mane","phonenumber":456,"address":{"city":"pune","zip":789,"state":"maha"}},
+{"fname":"Mahi","lname":"Patil","phonenumber":789,"address":{"city":"hasori","zip":789,"state":"up"}}]

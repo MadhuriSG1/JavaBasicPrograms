@@ -1,0 +1,5 @@
+[{"dname":"Madhuri","specialist":"MBBS","availability":"AM","doctorId":1,"patientCount":6},
+{"dname":"Swati","specialist":"BHMS","availability":"Both","doctorId":2,"patientCount":1},
+{"dname":"Pushpa","specialist":"BDS","availability":"AM","doctorId":3,"patientCount":1},
+{"dname":"Mai","specialist":"PHD","availability":"Both","doctorId":4,"patientCount":0},
+{"dname":"Patil","specialist":"asdf","availability":"PM","doctorId":5,"patientCount":0}]
