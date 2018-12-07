@@ -9,11 +9,13 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 
+/*The problem with above serialized singleton class is that whenever we deserialize it, 
+ * it will create a new instance of the class.it destroys the singleton pattern,so readResolve() method is used*/
 public class SerializationSingletoneTest {
 	
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 		
-	        SerializedSingleton instanceOne = SerializedSingleton.getInstance();
+	        DeserializedusingreadResolve instanceOne = DeserializedusingreadResolve.getInstance();
 	        ObjectOutput out = new ObjectOutputStream(new FileOutputStream(
 	                "filename.ser"));
 	        out.writeObject(instanceOne);
@@ -22,7 +24,7 @@ public class SerializationSingletoneTest {
 	        //deserailize from file to object
 	        ObjectInput in = new ObjectInputStream(new FileInputStream(
 	                "filename.ser"));
-	        SerializedSingleton instanceTwo = (SerializedSingleton) in.readObject();
+	        DeserializedusingreadResolve instanceTwo = (DeserializedusingreadResolve) in.readObject();
 	        in.close();
 	        
 	        System.out.println("instanceOne hashCode="+instanceOne.hashCode());

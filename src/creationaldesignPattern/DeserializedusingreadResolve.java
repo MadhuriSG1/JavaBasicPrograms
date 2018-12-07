@@ -3,17 +3,17 @@ package creationaldesignPattern;
 import java.io.Serializable;
 
 
-public class SerializedSingleton implements Serializable{
+public class DeserializedusingreadResolve implements Serializable{
 
     private static final long serialVersionUID = -7604766932017737115L;
 
-    private SerializedSingleton(){}
+    private DeserializedusingreadResolve(){}
     
     private static class SingletonHelper{
-        private static final SerializedSingleton instance = new SerializedSingleton();
+        private static final DeserializedusingreadResolve instance = new DeserializedusingreadResolve();
     }
     
-    public static SerializedSingleton getInstance(){
+    public static DeserializedusingreadResolve getInstance(){
         return SingletonHelper.instance;
     }
     
